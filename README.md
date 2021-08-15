@@ -8,7 +8,7 @@ All the analysis was done on Python using Jupyter notebooks.
 
 # Description
 
----
+
 
 There are three main notebooks in this repository: `Data_Cleaning1`, `Data_Cleaning2` and `Cluster`. The first two notebooks contain the code I used to clean the databases in order to merge them together for the joint clustering analysis. The third notebook contains the cluster analysis proper. 
 
@@ -17,13 +17,15 @@ Each notebook contains a description on top about what was attempted and achieve
 **Note about style**: `Data_Cleaning1` and `Clustering` were written in first person, while `Data_Cleaning2` was written in impersonal. This was deliberate and was done to show the author's ability to express in both contexts. 
 
 ### Notebook requirements
-- `Data_Cleaning1` requires all three Datasets mentioned in the introduction. 
+Notebooks can be found in the "Challenge Notebooks" folder. 
+
+Requirements:
+- `Data_Cleaning1` requires all three Datasets mentioned in the introduction. They can be found in the Data folder.
 - `Data_Cleaning2` requires the file "COVID_ALL.csv", which is created after running `Data_Cleaning1`
 - `Cluster` requires the file "COVID_ALL2.csv", which is created after running `Data_Cleaning2`
 
 # Variable wiki
 
----
 
 Variable selection was a challenging process due to the lack of common variables among the three datasets. Mexico's data was tidy and contained plenty of variables about patient's medical records. Colombia lacked information about patient treatment and only labeled the severity of the case. The choice of variables was made considering overlap, relative importance, and clear documentation for the data (not all the variables were properly documented and identified). 
 
