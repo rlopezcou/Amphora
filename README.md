@@ -81,7 +81,20 @@ It was decided to keep a simple `YES/NO` tag for binary variables because the pa
 Additionally, as can be seen on the `Data_Cleaning2` notebook, two extra categorical variables were created: 
 
 - AGE_CAT
+    - Categorical. Subdivides ages into the following age groups:
+        1. 0-17
+        2. 18-35
+        3. 36-49
+        4. 50-64
+        5. 65+
 - TTD_CAT (Time Till Death Categorical)
+    - Categorical. Measures number of days that passed when the case was reported until the patient died (if applicable). Then, divides those days into the following categories:
+        1. 0-4 days
+        2. 5-9 days
+        3. 10-14 days
+        4. 15+ days
+        5. Reported after dead (RAD)
+        6. N/A
 
 # Findings and Results
 
